@@ -17,6 +17,6 @@ spec:
         image: gcr.io/cloud-494515/python-appgke:latest
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 5000
 
 
