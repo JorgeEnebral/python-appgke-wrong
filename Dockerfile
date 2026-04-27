@@ -2,7 +2,7 @@
 FROM python:3.11-slim
 
 # Copia solo los archivos necesarios para instalar dependencias primero (optimiza la caché de Docker)
-COPY requirements.txt
+COPY requirements.txt .
 
 # Instala las dependencias
 RUN pip install --no-cache-dir -r requirements.txt
